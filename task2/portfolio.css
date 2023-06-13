@@ -1,1 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(52, 50, 50);
+    color:white;
+}
+   .container1{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+   }
+   .container1 h1{
+    color: rgb(74, 140, 207);
+    font-size:3em;
+    text-decoration:underline;
+   }
+nav ul{
+height: 80px;
+    margin: 5px;
+    float: right;
+    display: flex;
+display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+nav ul li a{
+    color: rgb(237, 232, 232);
+    text-decoration: none;
+    font-weight: bold;
+border-radius: 0px solid black;
+padding: 7px 8px;
+font-size: 18px;
+}
+nav ul li a:hover{
+    background-color:rgb(74, 140, 207);
+    transition: 0.5s ease;
+}
+img{
+    width: 50vh;
+    margin: 10px 200px;
+}
+.text{
+    margin-left: 50%;
+    font-size: 30px;
+transform: translateY(-50vh);
 
+}
+.text h1{
+    text-decoration: none;
+}
+#about{
+    background-color: dimgrey;
+    color: rgb(45, 44, 44);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1 h1{
+    margin: 20px;
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    transform: translateX(90vh);
+}
+#about p{
+    padding: 50px 200px;
+    font-size: 30px;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height:50px;
+}
+
+#skills{
+    background-color: dimgrey;
+    color: rgb(11, 11, 11);
+}
+.subtitlee h1{
+    margin: 20px;
+    text-decoration: underline;
+    color: rgb(243, 238, 238);
+    text-align: center;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+grid-gap: 150px;
+margin-top: 40px;
+margin-bottom: 40px;
+padding: 40px;
+}
+.list h1{
+    font-size: 30px;
+    text-decoration: none;
+}
+.list div{
+    background:rgb(136, 134, 134);
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: background 0.5s ,transform 0.5s;
+}
+.list div:hover{
+    background: rgb(74, 140, 207);
+    transform: translateY(-10px);
+}
+.subtitle h1{
+    background-color: dimgrey;
+        margin: 20px;
+        text-decoration: underline;
+        color: rgb(11, 11, 11);
+        text-align: center;
+}
+.subtitle p{
+    transform: translateX(650px);
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+.fa{
+    transform: translateX(90vh);
+    margin: 7px;
+    text-decoration: none;
+    padding: auto;
+    font-size: 70vh;
+}
+.container4{
+    margin: 20px;
+    padding: 20px;
+    background-color: dimgrey;
+}
+.right h2{
+    margin-top: 40px;
+    margin-left: 15px;
+    color: black;
+} 
+form input,form textarea{
+    width: 100%;
+  margin: 4px;
+  padding: 17px;
+}
+button{
+    margin-left: 10px;
+    margin-top: 5px;
+   padding: 14px 60px;
+   background-color: rgb(74, 140, 207);
+   border-radius: 5px solid black;
+}
