@@ -1,1 +1,92 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+section{
+    min-height: 150vh;
+    background: url(travel.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    width:85%;
+margin: auto;
+}
+nav{
+    height:80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size:inline;
+    font-size: 50px;
+    font-weight:900;
+    color: rgb(30, 30, 158);
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+    margin: 5px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+border-radius: 0px solid black;
+padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color:rgb(199, 160, 175);
+    transition: 0.5s ease;
+}
+.content{
+    width: 50%;
+    margin: auto;
+text-align: center;
+transform: translateY(70vh);
+}
+.content h1{
+    letter-spacing: 10px;
+    line-height-step: 2px;
+    font-size:2.5em;
+    font-weight: 2em;
+  margin-bottom: 25px;
+}
+.content p{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+.content .btn{
+    color: rgb(220, 207, 207);
+    padding: 12px 25px;
+    background-color: indianred;
+    text-decoration: none;
+}
+.content .btn:hover{
+    background-color: rgb(13, 48, 100);
+    transition: 0.5s eaese;
+}
+footer{
+    margin-top: 820px;
+}
+footer p{
+    font-weight: bold;
+}
+.fa {
+margin: 10px; 
+right: 30px;
+font-size: 30px;
+    width: 190px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: black;
+  }
